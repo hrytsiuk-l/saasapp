@@ -36,6 +36,9 @@ gem 'bootstrap-sass'
 # Use Font Awesome sass gem for adding icons
 gem 'font-awesome-sass'
 
+# Use Hirb for better datdbase table display in console
+gem 'hirb'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

@@ -5,7 +5,7 @@ class Users::RegistrationsController < Devise::RegistrationsController
   # Otherwise Devise signs up user as usual.
   def create
     
-    binding.pry
+   
     
     super do |resource|
       if params[:plan]

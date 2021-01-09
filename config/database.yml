@@ -2,9 +2,9 @@ default: &default
   adapter: postgresql
   encoding: unicode
   pool: 5
-  host: ''
+  host: localhost
   port: 5432
-  username: saasapp
+  username: postgres
   password:
 
 development:
